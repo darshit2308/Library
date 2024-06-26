@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="main.css">
+        <title>Library</title>
+
+    </head>
+    <body>
+        <header>
+            <img src="./images/logo.png" alt="main.css" class="logo" width="140px" height="140px">
+            <h1>My Library</h1>
+
+            <div class="mode">
+                <p class="changeMode">Mode</p>
+                <!-- <br><br> -->
+                <input type="checkbox" id="switch" class="myMode">
+                <label for="switch" class="toggle">
+                    <p>Dark </p>
+                    <p>Light </p>
+                </label>
+            </div>
+        </header>
+        <button class="newBook">+ Add Book</button> 
+        <dialog class="formContainer">
+            <button class="closeDialog">x</button>
+            <form method="dialog">
+                <h2>Add New Book</h2>
+                <input type="text" id="title" placeholder="Title" required>
+                <input type="text" id="author" placeholder="Author" required>
+                <input type="number" id="pages" placeholder="Pages" required>
+                <input type="checkbox" id="read" width="150px" height="150px">
+                <label for="read">Read</label>
+
+                <menu>
+                    <button type="submit" class="submit menu">Submit</button>
+                    <button type="reset" class="reset menu">Reset</button>
+                </menu>
+                
+            </form>
+
+        </dialog>
+
+        <div class="library"></div>
+
+        <script src="file.js"></script>
+    </body>
+
+    
+
+</html>
