@@ -6,9 +6,6 @@
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: black;
-    /* background-image: url(./images/add-book.jpg); */
-    /* background-repeat: no-repeat; */
-    /* background-size: contain; */
     filter: brightness(1.2);
     display: flex;
     flex-flow: column nowrap;
